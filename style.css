@@ -1,0 +1,7 @@
+body{
+    background-color: black;
+}
+
+.carousel-inner{
+    max-height: 34rem;
+}
