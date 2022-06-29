@@ -5,3 +5,42 @@ body{
 .carousel-inner{
     max-height: 34rem;
 }
+
+img{
+    padding: 25px 5px 25px 5px;
+}
+
+.mapa{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.texto{
+   color: white;
+   text-align: start;
+}
+
+.row{
+    background-color: black;
+}
+
+.nav{
+    background-color: violet;
+}
+
+.sticky-top{
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+.titulo{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tituloservicios{
+    color: white;
+    margin-top: 20px;
+}
