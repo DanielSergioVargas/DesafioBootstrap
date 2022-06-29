@@ -18,14 +18,24 @@ img{
 .texto{
    color: white;
    text-align: start;
+   font-size: large;
+}
+
+.historia{
+   color: white;
+   text-align: center;
+   font-size: large;
+}
+
+h5{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: large;
 }
 
 .row{
-    background-color: black;
-}
-
-.nav{
-    background-color: violet;
+    background-color: rgb(27, 24, 24);
 }
 
 .sticky-top{
