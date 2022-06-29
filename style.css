@@ -111,11 +111,11 @@ footer{
 .listado{
     display: flex;
     flex-direction: column;
-    padding-left: 60px;
-    padding-top: 25px;
+    padding-left: 50px;
+    padding-top: 20px;
 }
 
 .listado li{
-    color: white;
+    color: black;
     font-size: large;
 }
