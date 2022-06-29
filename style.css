@@ -59,7 +59,7 @@ h5{
 footer{
     height: 100px;
     display: flex;
-    flex-direction: row ;
+    flex-direction: column ;
     justify-content: center;
     align-items: center;
 }
@@ -79,9 +79,13 @@ footer{
 
 .redes p{
     border-radius: 6px;
-    background-color: violet;
     width: fit-content;
     height: 40px;
+}
+
+.redes a{
+    text-decoration: none;
+    font-size: x-large;
 }
 
 /*--- Galeria de fotos ---*/
