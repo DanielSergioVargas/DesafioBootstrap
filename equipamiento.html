@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <!--Link Bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
+  <!--Link al CSS-->
   <link rel="stylesheet" href="style.css">
   <title>Equipamiento</title>
 </head>
@@ -14,11 +14,11 @@
 
   <!--Navbar Bootstrap -->
   <header class="container-fluid bg-primary sticky-top">
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid" >
-         <a class="navbar-brand d-flex justify-content-flex-start" href="#">
-           <span class="text-primary fs-5 fw-bold d-flex ">ESTUDIO ONI</span>
-         </a>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid" >
+        <a class="navbar-brand d-flex justify-content-flex-start" href="#">
+          <span class="text-primary fs-3 fw-bold d-flex ">ESTUDIO ONI</span>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,76 +31,72 @@
             <a class="nav-link fs-5" href="contacto.html">Contacto</a>
           </div>
         </div>
-       </div>
-      </nav>
+      </div>
+    </nav>
   </header>
-
-  <div class="row">
-    <div class="col-lg-12 md-12">
-        <!--<img src="multimedia/imagenes/imagenequipamiento.jpg" alt="equipamiento" width="100%" height="80%">-->    </div>
-    </div>
-
-    <!-- Titulo y texto-->
-    <div class="row">
-        <h2 class="titulo">Equipamiento en nuestros Estudios</h2>
+    
+  <!-- Titulo y texto-->
+  <section class="container-fluid">
+    <div class="row" >
+      <h2 class="titulo">Equipamiento en nuestros Estudios</h2>
     </div>
     <div class="row">
-        <p class="historia">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Perspiciatis doloribus necessitatibus officia? 
-        Nulla mollitia eum eos ea dignissimos? Veritatis ipsum totam sapiente facere expedita 
-        labore vero itaque obcaecati quam maxime. Lorem ipsum dolor sit amet consectetur, 
-        adipisicing elit. Animi nesciunt, est delectus itaque labore provident molestias incidunt,
-        necessitatibus recusandae magni eligendi possimus aut officia sapiente atque tenetur totam 
-        iure nostrum!</p>
+      <p class="historia">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Perspiciatis doloribus necessitatibus officia? 
+      Nulla mollitia eum eos ea dignissimos? Veritatis ipsum totam sapiente facere expedita 
+      labore vero itaque obcaecati quam maxime. Lorem ipsum dolor sit amet consectetur, 
+      adipisicing elit. Animi nesciunt, est delectus itaque labore provident molestias incidunt,
+      necessitatibus recusandae magni eligendi possimus aut officia sapiente atque tenetur totam 
+      iure nostrum!</p>
     </div>
-
-     <!-- Listado de equipos-->
+  </section>
+  
+  <!---------------------------------------------------------------------->
+  <!-- Listado de equipos-->
     <section class="container-fluid">
-      <div class="row">
-
-        <div class="col-lg-4 md-12">
-          
+      <div class="row p-2">
+        <div class="col-lg-4 col-md-4 col-sm-12 pb-2">
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
-               <img src="multimedia/imagenes//monitores.jpg" alt="holahola" width="100%" height="10%">
-               <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      MONITORES / AURICULARES
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <ul class="listado">
-                       <li>Yamaha NS10M Studio + Samson Servo 170</li>
-                       <li>KRK Rokit RP6 G#</li>
-                       <li>Auris M Audio Q40</li>
-                       <li>AKG K267 Tiesto Studio </li>
-                       <li>AKG Q701 Quincy Jones</li>
-                       <li>Behringer AMP800</li>
-                       <li>AKG K-240 MKII</li>
-                       <li>SENNHEISER HD 660S</li>
-                       <li>Monitores JBL 4430</li>
-                       <li>Genelec 8030 C</li>
-                    </ul>
-                  </div>
+              <img src="multimedia/imagenes//monitores.jpg" alt="holahola" width="100%" height="10%">
+              <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                MONITORES / AURICULARES
+              </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul class="listado">
+                    <li>Yamaha NS10M Studio + Samson Servo 170</li>
+                    <li>KRK Rokit RP6 G#</li>
+                    <li>Auris M Audio Q40</li>
+                    <li>AKG K267 Tiesto Studio </li>
+                    <li>AKG Q701 Quincy Jones</li>
+                    <li>Behringer AMP800</li>
+                    <li>AKG K-240 MKII</li>
+                    <li>SENNHEISER HD 660S</li>
+                    <li>Monitores JBL 4430</li>
+                    <li>Genelec 8030 C</li>
+                  </ul>
                 </div>
+              </div>
             </div>
           </div>
         </div>
 
-       <!-- Listado de compresores y ecualizadores-->
-        <div class="col-lg-4 md-12">
+        <!-- Listado de compresores y ecualizadores-->
+        <div class="col-lg-4 col-md-4 col-sm-12 pb-2">
           <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <img src="Multimedia/imagenes/compresor.jpg" alt="compresor" width="100%">
-            <h2 class="accordion-header" id="headingTwo">
+            <div class="accordion-item">
+              <img src="Multimedia/imagenes/compresor.jpg" alt="compresor" width="100%">
+              <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                COMPRESORES / ECUALIZADORES
+                COMPRESORES/ECUALIZADORES
               </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                 <ul class="listado">
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul class="listado">
                     <li>Compresor  G-1176</li>
                     <li>Compresor DBX266xl </li>
                     <li>Compresor 8 Ch ACP-8 Presonus</li>
@@ -112,119 +108,111 @@
                     <li>IMG Stage Line MEQ-11S/SW</li>
                     <li>DBX 231s</li>
                   </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!--Procesadores Digitales-->
-      <div class="col-lg-4 md-12">
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <img src="multimedia/imagenes/procesadores.jpg" alt="procesadores" width="100%">
-            <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                PROCESADORES DIGITALES
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <ul class="listado">
-                  <li>Preamp Channel Strip SSL XLogic Alpha Channel </li>
-                  <li>Preamplificador Focusrite ISA One</li>
-                  <li>Channel Strip Symetrix 528</li>
-                  <li>Superficie de control Motorizada</li>
-                  <li>Grabadora Reel to Reel ¼ Sony TC-530</li>
-                  <li>Lexicon MPX1</li>
-                  <li>DAT Sony DTC-ZE700</li>
-                  <li>Kawai MX8-BR</li>
-                  <li>Db-Mark DP 26 Active Crossover</li>
-                  <li>Focusrite OctoPre MKII</li>
-                </ul> 
-              </div>
-            </div>
-          </div>
-       </div>
-     </div>
-    </section>
-    <!----------------------------------------------------------------->
-    <div class="row" style="background-color: rgb(28, 25, 25);">
-      <div class="col-lg-12 md-12">-</div>
-    </div>
-    <!----------------------------------------------------------------->
-    
-    <!--Segunda fila de listas--> 
-  <section class="container-fluid">
-    <div class="row">
-
-        <div class="col-lg-4 md-12">
-          <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-             <img src="multimedia/imagenes/microfono.jpg" alt="microfono" width="100%">
-             <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    MICROFONOS
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <ul class="listado">
-                    <li>Neumann U89i</li>
-                    <li>Neumann TML103</li>
-                    <li>AKG C414 XLS</li>
-                    <li>SHURE SM 57</li>
-                    <li>SHURE 56</li>
-                    <li>SAMSON C01</li>
-                    <li>SAMSON C02</li>
-                    <li>RODE NT1A</li>
-                    <li>SONY C48</li>
-                    <li>Audio Technica AT2020</li>
-                 </ul> 
-               </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 md-12">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <img src="Multimedia/imagenes/piano.jpg" alt="piano" width="100%">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  PIANOS / SINTETIZADORES
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <ul class="listado">
-                   <li>Piano Acustico Vertical Baldwin</li>
-                   <li>Piano Rhodes Fiftyfour</li>
-                   <li>Controlador Midi 88k KeyStation </li>
-                   <li>Organetta Hohner</li>
-                   <li>Beringheer Deepmind 12</li>
-                   <li>Roland Jupiter 80</li>
-                   <li>Yamaha Reface CP</li>
-                   <li>Roland Juno DS 61</li>
-                   <li>Korg Kronos 88</li>
-                   <li>Nord stage 3</li>
-                  </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 md-12">
+        <!--Procesadores Digitales-->
+        <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
           <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <img src="multimedia/imagenes/procesadores.jpg" alt="procesadores" width="100%">
+              <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                PROCESADORES DIGITALES
+              </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul class="listado">
+                    <li>Preamp Channel Strip SSL XLogic Alpha Channel </li>
+                    <li>Preamplificador Focusrite ISA One</li>
+                    <li>Channel Strip Symetrix 528</li>
+                    <li>Superficie de control Motorizada</li>
+                    <li>Grabadora Reel to Reel ¼ Sony TC-530</li>
+                    <li>Lexicon MPX1</li>
+                    <li>DAT Sony DTC-ZE700</li>
+                    <li>Kawai MX8-BR</li>
+                    <li>Db-Mark DP 26 Active Crossover</li>
+                    <li>Focusrite OctoPre MKII</li>
+                  </ul> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!--Segunda fila de listas--> 
+  <section class="container-fluid">
+    <div class="row p-2">
+      <div class="col-lg-4 col-md-4 col-sm-12 pb-2">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <img src="multimedia/imagenes/microfono.jpg" alt="microfono" width="100%">
+            <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              MICROFONOS
+            </button></h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul class="listado">
+                  <li>Neumann U89i</li>
+                  <li>Neumann TML103</li>
+                  <li>AKG C414 XLS</li>
+                  <li>SHURE SM 57</li>
+                  <li>SHURE 56</li>
+                  <li>SAMSON C01</li>
+                  <li>SAMSON C02</li>
+                  <li>RODE NT1A</li>
+                  <li>SONY C48</li>
+                  <li>Audio Technica AT2020</li>
+                </ul> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-12 pb-2">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <img src="Multimedia/imagenes/piano.jpg" alt="piano" width="100%">
+            <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              PIANOS / SINTETIZADORES
+            </button></h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul class="listado">
+                  <li>Piano Acustico Vertical Baldwin</li>
+                  <li>Piano Rhodes Fiftyfour</li>
+                  <li>Controlador Midi 88k KeyStation </li>
+                  <li>Organetta Hohner</li>
+                  <li>Beringheer Deepmind 12</li>
+                  <li>Roland Jupiter 80</li>
+                  <li>Yamaha Reface CP</li>
+                  <li>Roland Juno DS 61</li>
+                  <li>Korg Kronos 88</li>
+                  <li>Nord stage 3</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-12 pb-2">
+        <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <img src="multimedia/imagenes/instrumentos.jpg" alt="procesadores" width="100%">
             <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                INSTRUMENTOS
-              </button>
-            </h2>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              INSTRUMENTOS
+            </button></h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <ul class="listado">
@@ -243,26 +231,25 @@
             </div>
           </div>
         </div>
-        </div>
+      </div>
     </div>
   </section>
-      <!------------------------------------------------------------------->
+  <!---------------------------------------------------------------------->
 
   <!-- Inicio del footer-->
-      <footer>
-        <div class="row d-flex justify-content-center">
-          <div class="col-lg-12">
-            <p class="copy">2022. Buenos Aires, Argentina. Todos los derechos reservados</p>
-          </div>
-        </div>
-        <div class="row d-flex justify-content-center">
-          <div class="col-lg-12 md-12">
-            <a href="">Terminos y Condiciones</a>   |   <a href="">Politicas de Privacidad</a>
-          </div>
-        </div>
-      </footer>
+  <footer>
+    <div class="row d-flex justify-content-center w-100" style="background-color: black;">
+      <div class="col-lg-12">
+        <p class="copy">2022. Buenos Aires, Argentina. Todos los derechos reservados</p>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center" style="background-color: black;">
+      <div class="col-lg-12 md-12">
+        <a href="">Terminos y Condiciones</a>   ||   <a href="">Politicas de Privacidad</a>
+      </div>
+    </div>
+  </footer>
   <!--Fin del footer-->
-
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
   integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
