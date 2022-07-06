@@ -1,3 +1,11 @@
+/*Variables*/
+@import 'base/variables';
+/*Componentes*/
+@import 'componentes/datos';
+@import 'componentes/redes';
+@import 'componentes/footer';
+
+
 body{
     background-color: black;
 } 
@@ -10,33 +18,21 @@ img{
     padding: 25px 5px 25px 5px;
 }
 
-.mapa{
-    display: flex;
-    justify-content: flex-start;
-}
-
 .texto{
-   color: white;
+   color: $color-texto;
    text-align: start;
    font-size: large;
 }
 
 .historia{
-   color: white;
+   color: $color-texto;
    text-align: center;
    font-size: large;
    padding-top: 20px;
 }
 
-h5{
-    padding-top: 20px;
-    color: white;
-    text-align: center;
-    font-size: large;
-}
-
 .row{
-        background-color: rgb(27, 24, 24);
+    background-color: $globalcolor-rows;
 }
 
 .sticky-top{
@@ -46,47 +42,17 @@ h5{
 }
 
 .titulo{
-    color: white;
+    color: $color-titulo;
     margin-top: 20px;
     text-align: center;
 }
 
 .tituloservicios{
-    color: white;
+    color: $color-titulo;
     margin-top: 20px;
 }
 
-footer{
-    height: 100px;
-    display: flex;
-    flex-direction: column ;
-    justify-content: center;
-    align-items: center;
-}
 
-.copy{
-    text-align: center;
-    justify-content: center;
-    color: white;
-    font-size: large;
-}
-
-.redes{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.redes p{
-    border-radius: 6px;
-    width: fit-content;
-    height: 40px;
-}
-
-.redes a{
-    text-decoration: none;
-    font-size: x-large;
-}
 
 /*--- Galeria de fotos ---*/
 .fotos{
@@ -125,20 +91,10 @@ footer{
     height: 500px;
 }
 
-.mapa{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 15px;
-    padding-left: 15px;
-    width: 100%;
-}
 
 .imghistoria{
     padding-top: 20px;
     padding-left: 50px;
     padding-bottom: 20px;
 }
-
-
-
 

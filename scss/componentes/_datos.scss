@@ -1,0 +1,19 @@
+.row {
+    background-color: $globalcolor-rows;
+    
+    h5{
+       padding-top: 20px;
+       color: $color-texto;
+       text-align: center;
+       font-size: large;
+    }
+
+    .mapa{
+       padding-top: 20px;
+       padding-bottom: 20px;
+       padding-right: 15px;
+       padding-left: 15px;
+       width: 100%;
+    }
+}
+
