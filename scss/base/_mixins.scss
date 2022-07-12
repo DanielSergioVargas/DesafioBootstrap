@@ -1,0 +1,8 @@
+
+@mixin alineado-texto($alineado) {
+    text-align: $alineado;
+}
+
+@mixin propiedad-flex ($center){
+    justify-content: $center;
+}

@@ -1,13 +1,17 @@
+@import '../base/mixins';
+
+
 .footer{
     height: 100px;
-    display: flex;
-    flex-direction: column ;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;*/
+    flex-direction: column ; 
+    @extend %flexbox;
+    @include propiedad-flex (center);
 
     & .copy{
     text-align: center;
-    justify-content: center;
+    /* justify-content: center; */
+    @include propiedad-flex (center);
     color: $color-texto;
     font-size: large;
     } 
