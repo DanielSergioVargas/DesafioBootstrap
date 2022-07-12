@@ -3,7 +3,7 @@
 .row {
   background-color: rgb(27, 24, 24);
 }
-.row h5 {
+.row h3 {
   padding-top: 20px;
   color: white;
   text-align: center;
@@ -63,6 +63,7 @@ img {
   color: white;
   text-align: start;
   font-size: large;
+  padding-top: 15px;
 }
 
 .historia {
