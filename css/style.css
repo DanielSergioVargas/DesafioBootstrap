@@ -51,12 +51,18 @@ body {
   background-color: black;
 }
 
+.collapse {
+  display: flex;
+  justify-content: center;
+}
+
 .carousel-inner {
   max-height: 34rem;
 }
 
 img {
   padding: 25px 5px 25px 5px;
+  object-fit: cover;
 }
 
 .texto {
