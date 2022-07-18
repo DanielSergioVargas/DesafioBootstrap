@@ -5,9 +5,11 @@
 @import 'componentes/redes';
 @import 'componentes/footer';
 
+
 @import 'base/mapas';
 @import 'base/extend';
 @import 'base/mixins';
+
 
 body{
     background-color: map-get($standard, bg-default);
@@ -123,4 +125,6 @@ img{
     transform: scale(1.05,1.2); 
     transition: all 2s; 
 }
+
+@import 'base/mediaqueries';
 
