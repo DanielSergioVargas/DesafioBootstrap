@@ -1,9 +1,11 @@
+@import '../base/mixins'; 
 /*Nesting de la clase Redes*/
 
 .redes{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    
+/*    justify-content: space-evenly;
+*/    @extend %flexbox;
+      @include propiedad-flex(space-evenly);
 
     p{
         border-radius: 6px;

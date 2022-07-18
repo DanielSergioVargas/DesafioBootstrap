@@ -1,13 +1,16 @@
+@import '../base/mixins';
+
 .creditos{
     height: 125px;
-    display: flex;
-    flex-direction: column ;
-    justify-content: center;
-    align-items: center;
-
+    /* justify-content: center;*/
+    @extend %flexbox;
+    @include propiedad-flex (center);
+    flex-direction: column;
+    
     & .copy{
     text-align: center;
-    justify-content: center;
+    /* justify-content: center; */
+    @include propiedad-flex (center);
     color: $color-texto;
     font-size: large;
     } 

@@ -5,9 +5,12 @@
 @import 'componentes/redes';
 @import 'componentes/footer';
 
+@import 'base/mapas';
+@import 'base/extend';
+@import 'base/mixins';
 
 body{
-    background-color: black;
+    background-color: map-get($standard, bg-default);
 } 
 
 .collapse {
@@ -37,7 +40,8 @@ img{
 
 .texto{
    color: $color-texto;
-   text-align: start;
+   /* text-align: start; */
+   @include alineado-texto(start);
    font-size: large;
    padding-top: 15px;
 }
@@ -50,9 +54,10 @@ img{
 
 .historia{
    color: $color-texto;
-   text-align: center;
+   /* text-align: center; */
+   @include alineado-texto(center);
    font-size: large;
-   padding-top: 20px;
+   padding-top: 20px; 
 }
 
 .row{
@@ -68,7 +73,8 @@ img{
 .titulo{
     color: $color-titulo;
     margin-top: 20px;
-    text-align: center;
+    /* text-align: center; */
+    @include alineado-texto(center);
 }
 
 .tituloservicios{

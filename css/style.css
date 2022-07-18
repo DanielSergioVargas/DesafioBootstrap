@@ -19,8 +19,8 @@
 
 /*Nesting de la clase Redes*/
 .redes {
-  display: flex;
-  align-items: center;
+  /*    justify-content: space-evenly;
+  */
   justify-content: space-evenly;
 }
 .redes p {
@@ -35,16 +35,21 @@
 
 .creditos {
   height: 125px;
-  display: flex;
-  flex-direction: column;
+  /* justify-content: center;*/
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
 .creditos .copy {
   text-align: center;
+  /* justify-content: center; */
   justify-content: center;
   color: white;
   font-size: large;
+}
+
+.redes, .creditos {
+  display: flex;
+  align-items: center;
 }
 
 body {
@@ -79,6 +84,7 @@ img {
 
 .texto {
   color: white;
+  /* text-align: start; */
   text-align: start;
   font-size: large;
   padding-top: 15px;
@@ -92,6 +98,7 @@ img {
 
 .historia {
   color: white;
+  /* text-align: center; */
   text-align: center;
   font-size: large;
   padding-top: 20px;
@@ -110,6 +117,7 @@ img {
 .titulo {
   color: white;
   margin-top: 20px;
+  /* text-align: center; */
   text-align: center;
 }
 
