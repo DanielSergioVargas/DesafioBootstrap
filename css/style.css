@@ -102,6 +102,10 @@ img {
   text-align: center;
   font-size: large;
   padding-top: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 .row {
@@ -169,8 +173,11 @@ img {
 
 @media (max-width: 425px) {
   .texto {
+    font-size: medium;
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px white;
   }
   .textocarousel {
     font-size: medium;
@@ -183,6 +190,12 @@ img {
   }
   .creditos .copy {
     font-size: medium;
+  }
+  .historia {
+    font-size: medium;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
   }
 }
 
