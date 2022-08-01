@@ -40,6 +40,9 @@
         margin-left: 30px;
         margin-right: 30px;;
     }
+    .mapa{
+        height: 20rem;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -53,6 +56,8 @@
         text-align: center;
         padding-top: 40px;
         padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .textocarousel{
         font-size: medium; 
@@ -69,8 +74,8 @@
     }
     .historia{
         font-size: medium;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
         margin-top: 0px;
     }
     .borde{
@@ -84,4 +89,8 @@
         padding-left: 80px;
         padding-right: 80px;
     }
+    .mapa{
+        height: 22rem;
+    }
+    
 }

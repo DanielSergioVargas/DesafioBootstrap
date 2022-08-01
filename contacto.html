@@ -8,7 +8,7 @@
 
   <!-- Meta tags -->
   <meta name="description" content="Redes y datos de contacto para comunicarte con nosotros">
-  <meta name="keywords" content="mapa, instagram, twitter, facebook">
+  <meta name="keywords" content="Formulario, instagram, twitter, facebook">
   <meta name="author" content="">
 
   <!--Link Bootstrap-->
@@ -50,7 +50,7 @@
   <section class="container-fluid">
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-up" data-aos-anchor=".other-element">
-        <h1 class="titulo pt-5">Contactanos</h1>
+        <h1 class="titulo pt-4">Contactanos</h1>
         <h3>Direccion: Av. XXXXXXXXX 1234</h3>
         <h3>Email: xxxxxxxxxx@xxx.com</h3>
         <h3>Whatsapp: +549112345678</h3>
@@ -60,8 +60,40 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13136.071362135424!2d-58.42803816287842!3d-34.60371037535151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1654649208846!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
       </div>
     </div>
+  </section>
 
-    <!-- REDES SOCIALES-->
+  <!-- Formulario -->
+  <section class="container mt-4">
+    <h3 class="titulo">Formulario de Contacto</h3>
+    <form class="row">
+      <div class="col-md-6">
+        <label for="firstName" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="firstName" required>
+      </div>
+      <div class="col-md-6">
+        <label for="lastName" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="lastName" required>
+      </div>
+      <div class="col-md-8">
+        <label for="emailInfo" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="emailInfo" placeholder="correo@ejemplo.com" required>
+      </div>
+      <div class="col-md-4">
+        <label for="phoneNumber" class="form-label">Teléfono (Opcional)</label>
+        <input type="number" class="form-control" id="phoneNumber" placeholder="+549 1123456789">
+      </div>
+      <div class="col-md-12">
+        <label for="comments" class="form-label">Tu mensaje</label>
+        <textarea class="form-control" id="comments" rows="5"></textarea>
+      </div>
+      <div class="col-md-12 pt-3 pb-3">
+        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- REDES SOCIALES-->
+  <section class="container-fluid pt-5 pb-2">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12">
         <h4 class="titulo">Redes Sociales</h4>
@@ -70,27 +102,11 @@
     <div class="row d-flex justify-content-evenly">
       <div class="col-lg-12 col-md-12 col-sm-12">
         <div class="redes">
-          <p><a href="https://www.instagram.com" target="_blank">Instagram</a></p>
-          <p><a href="https://www.facebook.com" target="_blank">Facebook</a></p>
-          <p><a href="https://www.twitter.com" target="_blank">Twitter</a></p>
+          <p><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></p>
+          <p><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></p>
+          <p><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="container bg-light">
-    <div class="row pb-4">
-      <div class="col">
-        <h2 class="titulo">Formulario de Contacto</h2>
-      </div>
-    </div>
-    <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label">Ingrese email</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-    </div>
-    <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Tu mensaje</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
   </section>
 
@@ -107,10 +123,15 @@
       </div>
     </div>
   </footer>
-    
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/680326f877.js" crossorigin="anonymous"></script>
+  
+  <!-- Script Animacion -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>AOS.init();</script>
-
+  
+  <!-- Script Bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
   integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
   crossorigin="anonymous"></script>

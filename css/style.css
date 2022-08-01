@@ -30,7 +30,7 @@
 }
 .redes a {
   text-decoration: none;
-  font-size: x-large;
+  font-size: 35px;
 }
 
 .creditos {
@@ -187,6 +187,10 @@ img {
   opacity: 0.8;
 }
 
+.form-label {
+  color: white;
+}
+
 @media (max-width: 425px) {
   .collapse {
     display: flex;
@@ -227,6 +231,9 @@ img {
     margin-left: 30px;
     margin-right: 30px;
   }
+  .mapa {
+    height: 20rem;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .collapse {
@@ -238,6 +245,8 @@ img {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .textocarousel {
     font-size: medium;
@@ -254,8 +263,8 @@ img {
   }
   .historia {
     font-size: medium;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-top: 0px;
   }
   .borde {
@@ -267,6 +276,9 @@ img {
   .img-fluid {
     padding-left: 80px;
     padding-right: 80px;
+  }
+  .mapa {
+    height: 22rem;
   }
 }
 
