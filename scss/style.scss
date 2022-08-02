@@ -26,12 +26,13 @@ body{
 
 .slide{
     margin-top: 0px;
-}
-.slide img{
+    
+    img{
     height: 96vh;
     object-fit: cover;
     opacity: 0.8; 
 } 
+}
 
 .d-block{
     padding-top: 0%;
@@ -44,23 +45,21 @@ img{
 
 .texto{
    color: $color-texto;
-   /* text-align: start; */
    @include alineado-texto(start);
-   font-size: large;
+   @include tamanio-letra(large);
    padding-top: 15px;
 }
 
 .textocarousel{
     color: $color-texto;
-    text-align: center;
-    font-size: x-large;   
+    @include alineado-texto(center);
+    @include tamanio-letra(x-large);
 }
 
 .historia{
    color: $color-texto;
-   /* text-align: center; */
    @include alineado-texto(center);
-   font-size: large;
+   @include tamanio-letra(large);
    padding-top: 20px; 
    padding-left: 70px;
    padding-right: 70px;
@@ -81,7 +80,6 @@ img{
 .titulo{
     color: $color-titulo;
     margin-top: 20px;
-    /* text-align: center; */
     @include alineado-texto(center);
 }
 
@@ -93,8 +91,8 @@ img{
 .titulocarousel{
     color: $color-titulo;
     margin-top: 0px;
-    text-align: center;
-    font-size: xx-large;
+    @include alineado-texto(center);
+    @include tamanio-letra(xx-large);
 }
 
 .listado{
@@ -102,11 +100,11 @@ img{
     flex-direction: column;
     padding-left: 50px;
     padding-top: 20px;
-}
-
-.listado li{
+    
+    li{
     color: black;
-    font-size: large;
+    @include tamanio-letra(large);
+}
 }
 
 .accordion-item img{
@@ -122,15 +120,17 @@ img{
 
 /*--- Galeria de imagenes ---*/
 
-#galeria img{
-    width: 100%;
-    height: 350px;
-}
-
-#galeria img:hover{
-    transform: scale(1.05,1.2); 
-    transition: all 2s; 
-}
+#galeria{
+    img{
+        width: 100%;
+        height: 350px;
+    }
+    
+    img:hover{
+        transform: scale(1.05,1.2); 
+        transition: all 2s; 
+    }
+} 
 
 .borde{
     border-bottom: solid 1.5px white;
@@ -146,7 +146,7 @@ img{
     opacity: 0.8;
 }
 .form-label{
-    color: white;
+    color: $color-texto;
 }
 .titulovideo{
     margin-top: 100px;

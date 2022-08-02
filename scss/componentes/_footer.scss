@@ -2,16 +2,14 @@
 
 .creditos{
     height: 125px;
-    /* justify-content: center;*/
     @extend %flexbox;
     @include propiedad-flex (center);
     flex-direction: column;
     
     & .copy{
-    text-align: center;
-    /* justify-content: center; */
+    @include alineado-texto(center);
     @include propiedad-flex (center);
     color: $color-texto;
-    font-size: large;
+    @include tamanio-letra(large);
     } 
 }

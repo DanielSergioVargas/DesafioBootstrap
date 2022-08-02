@@ -1,11 +1,13 @@
+@import '../base/mixins';
+
 .row {
     background-color: $globalcolor-rows;
     
     h3{
-       padding-top: 20px;
-       color: $color-texto;
-       text-align: center;
-       font-size: large;
+      padding-top: 20px;
+      color: $color-texto;
+      @include alineado-texto(center);
+      @include tamanio-letra(large);
     }
 
     .mapa{

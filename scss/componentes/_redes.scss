@@ -2,9 +2,7 @@
 /*Nesting de la clase Redes*/
 
 .redes{
-    
-/*    justify-content: space-evenly;
-*/    @extend %flexbox;
+      @extend %flexbox;
       @include propiedad-flex(space-evenly);
 
     p{

@@ -1,8 +1,10 @@
+/* Vista Mobile*/
+
 @media (max-width: 425px) {
 
     .collapse{
         display: flex;
-        justify-content: flex-start;
+        @include propiedad-flex(flex-start);
     } 
     .navbar-expand-lg .navbar-nav .nav-link:hover{
         background-color: rgb(13, 110, 253);
@@ -10,26 +12,26 @@
     }
 
     .texto{
-        font-size: medium;
-        text-align: center;
+        @include tamanio-letra(medium);
+        @include alineado-texto(center);
         padding-top: 40px;
         padding-bottom: 30px;
     }
     .textocarousel{
-        font-size: medium; 
+        @include tamanio-letra(medium);
         margin: 0%;
     }
     .titulocarousel{
         font-size: large;
     }
     .tituloservicios{
-        text-align: center;
+        @include alineado-texto(center);
     }
     .creditos .copy{
-        font-size: medium;
+        @include tamanio-letra(medium);
     }
     .historia{
-        font-size: medium;
+        @include tamanio-letra(medium);
         padding-left: 20px;
         padding-right: 20px;
         margin-top: 0px;
@@ -54,36 +56,36 @@
         height: 200px;
     }
 }
-
+/* Vista Tablet */
 @media (min-width: 768px) and (max-width: 991px) {
     .collapse{
         display: flex;
-        justify-content: flex-start;
+        @include propiedad-flex(flex-start);
     } 
 
     .texto{
-        font-size: medium;
-        text-align: center;
+        @include tamanio-letra(medium);
+        @include alineado-texto(center);
         padding-top: 40px;
         padding-bottom: 30px;
         padding-left: 20px;
         padding-right: 20px;
     }
     .textocarousel{
-        font-size: medium; 
+        @include tamanio-letra(medium); 
         margin: 0%;
     }
     .titulocarousel{
-        font-size: large;
+        @include tamanio-letra(large);
     }
     .tituloservicios{
-        text-align: center;
+        @include alineado-texto(center);
     }
     .creditos .copy{
-        font-size: medium;
+        @include tamanio-letra(medium);
     }
     .historia{
-        font-size: medium;
+        @include tamanio-letra(medium);
         padding-left: 30px;
         padding-right: 30px;
         margin-top: 0px;

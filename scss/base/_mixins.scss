@@ -6,3 +6,7 @@
 @mixin propiedad-flex ($center){
     justify-content: $center;
 }
+
+@mixin tamanio-letra($tamanio) {
+    font-size: $tamanio;
+}
